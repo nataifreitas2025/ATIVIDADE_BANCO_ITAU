@@ -3,16 +3,18 @@ h1 { text-align: center;
 
 }
 
-button { width: 100%
+button { width: 50%;
     padding: 10px;
     background-color: orange;
+    margin-left: 65px;
+    margin-top: 10px;
     
 
 }
 
 .conteudo {
     background-color: rgb(9, 55, 192);
-     text-align:center;
+     text-align: left;
      font-family: Arial, sans-serif;
      border-radius:  10px;
      width: 260px;
@@ -26,8 +28,21 @@ body {
     background: #f5f5f5;
     display: flex;
     justify-content: center;
-     align-items: center;
-     height: 100vh;
+    align-items: center;
+    height: 80vh;
     
     
 }
+
+label{
+    margin-left: 45px;
+    color: #f5f5f5;
+    font-style: bold;
+}
+
+input{
+    margin-left: 45px;
+}
+
+
+
